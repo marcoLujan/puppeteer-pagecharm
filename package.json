@@ -1,0 +1,36 @@
+{
+  "name": "puppeteer-pagecharm",
+  "version": "1.0.0",
+  "description": "Simple command line tool to take screenshots and generate pdfs from a html page usign Puppeteer",
+  "main": "pagecharm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcoLujan/puppeteer-pagecharm.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "screenshots",
+    "images",
+    "pfd",
+    "cli",
+    "js"
+  ],
+  "author": "Marco Lujan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoLujan/puppeteer-pagecharm/issues"
+  },
+  "homepage": "https://github.com/marcoLujan/puppeteer-pagecharm#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "file-url": "^2.0.2",
+    "puppeteer": "^1.10.0"
+  },
+  "bin": {
+    "pagecharm": "./pagecharm.js"
+  }
+}
